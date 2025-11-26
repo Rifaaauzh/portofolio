@@ -131,7 +131,7 @@ export default function App() {
         </div>
       </section>
 
-   {/* Skills – FINAL & PERFECT VERSION */}
+   {/* Skills */}
 <section id="skills" className="py-32 bg-gray-900">
   <div className="max-w-7xl mx-auto px-6">
     <h2 className="text-6xl font-black text-center mb-20 bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent">
