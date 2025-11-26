@@ -29,8 +29,8 @@ export default function App() {
     { title: "GoPhis", subtitle: "Anti-Phishing Training System", desc: "Built a phishing-simulation platform using Golang & Docker to train employees in recognizing deceptive emails.", tech: ["Golang", "Docker"] },
     { title: "SafeHarbour", subtitle: "Anonymous Harassment Reporting App", desc: "Secure Flutter app with encrypted Firebase backend for anonymous reporting.", tech: ["Flutter", "Firebase Auth", "Firestore"] },
     { title: "Smart Irrigation IoT", subtitle: "Automated Agriculture System", desc: "IoT system automating irrigation using soil moisture, water level & temperature sensors.", tech: ["IoT", "Flutter", "Firebase", "Python", "VOne Cloud"] },
-    { title: "Health Monitoring System", subtitle: "Real-time Health Tracker", desc: "Web-based health metrics tracking with PHP backend and Firebase Realtime DB.", tech: ["PHP", "JavaScript", "Firebase"] },
-    { title: "ToDoList Website", subtitle: "Task Management App", desc: "Modern responsive task manager built with Next.js.", tech: ["Next.js", "React"] },
+    { title: "Health Monitoring System", subtitle: "Real-time Health Tracker", desc: "Web-based health metrics tracking with PHP backend and Firebase Realtime DB.", tech: ["PHP", "JavaScript", "Firebase", "HTML", "CSS"] },
+    { title: "ToDoList Website", subtitle: "Task Management App", desc: "Modern responsive task manager built with Next.js.", tech: ["Next.js"] },
   ];
 
   const certifications = [
