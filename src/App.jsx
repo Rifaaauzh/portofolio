@@ -131,61 +131,56 @@ export default function App() {
         </div>
       </section>
 
-   {/* Skills */}
+   {/* Skills – FINAL & PERFECT VERSION */}
 <section id="skills" className="py-32 bg-gray-900">
   <div className="max-w-7xl mx-auto px-6">
     <h2 className="text-6xl font-black text-center mb-20 bg-gradient-to-r from-purple-600 to-pink-500 bg-clip-text text-transparent">
       Technical Skills
     </h2>
-    <div className="grid lg:grid-cols-3 gap-12">
 
-      {/* Languages */}
+    <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-10">
+
+      {/* 1. Languages */}
       <div>
         <h3 className="text-2xl font-bold mb-8 flex items-center gap-4">
           <Code2 size={36} className="text-purple-400" /> Languages
         </h3>
-        <div className="grid grid-cols-2 gap-4">
-          {[
-            "Dart", "Python", "JavaScript", "TypeScript", 
-            "Golang", "Java", "Swift", "C++", "PHP", "SQL",
-            "HTML", "CSS"
-          ].map(l => (
-            <div key={l} className="bg-gray-800 border border-gray-700 rounded-xl px-6 py-4 text-center font-medium shadow-md hover:shadow-xl hover:border-purple-500 transition-all">
-              {l}
-            </div>
-          ))}
+        <div className="grid grid-cols-2 gap-4 text-sm">
+          {["Dart","Python","JavaScript","TypeScript","Golang","Java","Swift","C++","PHP","SQL","HTML","CSS"]
+            .map(l => <div key={l} className="bg-gray-800 border border-gray-700 rounded-xl px-5 py-3 text-center font-medium hover:border-purple-500 transition-all">{l}</div>)}
         </div>
       </div>
 
-      {/* Frameworks & Libraries */}
+      {/* 2. Frameworks & Libraries */}
       <div>
         <h3 className="text-2xl font-bold mb-8 flex items-center gap-4">
-          <Cpu size={36} className="text-pink-400" /> Frameworks & Libraries
+          <Cpu size={36} className="text-pink-400" /> Frameworks
         </h3>
-        <div className="grid grid-cols-2 gap-4">
-          {["Flutter", "React.js", "Next.js", "Node.js"].map(f => (
-            <div key={f} className="bg-gray-800 border border-gray-700 rounded-xl px-6 py-4 text-center font-medium shadow-md hover:shadow-xl hover:border-pink-500 transition-all">
-              {f}
-            </div>
-          ))}
+        <div className="grid grid-cols-2 gap-4 text-sm">
+          {["Flutter","React.js","Next.js","Node.js"]
+            .map(f => <div key={f} className="bg-gray-800 border border-gray-700 rounded-xl px-5 py-3 text-center font-medium hover:border-pink-500 transition-all">{f}</div>)}
         </div>
       </div>
 
-      {/* Cloud, DevOps & Tools */}
+      {/* 3. Cloud, DevOps & Tools */}
       <div>
         <h3 className="text-2xl font-bold mb-8 flex items-center gap-4">
-          <Cloud size={36} className="text-purple-400" /> Cloud, DevOps & Tools
+          <Cloud size={36} className="text-purple-400" /> Cloud & DevOps
         </h3>
-        <div className="grid grid-cols-2 gap-4">
-          {[
-            "AWS", "GCP", "Docker", 
-            "Git & GitHub", "Postman", "Figma", 
-            "Arduino", "Raspberry Pi"
-          ].map(t => (
-            <div key={t} className="bg-gray-800 border border-gray-700 rounded-xl px-6 py-4 text-center font-medium shadow-md hover:shadow-xl hover:border-purple-500 transition-all">
-              {t}
-            </div>
-          ))}
+        <div className="grid grid-cols-2 gap-4 text-sm">
+          {["AWS","GCP","Firebase","Docker","Git & GitHub"]
+            .map(t => <div key={t} className="bg-gray-800 border border-gray-700 rounded-xl px-5 py-3 text-center font-medium hover:border-purple-500 transition-all">{t}</div>)}
+        </div>
+      </div>
+
+      {/* 4. Design & Embedded */}
+      <div>
+        <h3 className="text-2xl font-bold mb-8 flex items-center gap-4">
+          <div className="w-9 h-9 bg-gradient-to-br from-pink-500 to-purple-500 rounded-lg flex items-center justify-center text-white font-bold">F</div> Design & IoT
+        </h3>
+        <div className="grid grid-cols-2 gap-4 text-sm">
+          {["Figma","Arduino","Raspberry Pi"]
+            .map(d => <div key={d} className="bg-gray-800 border border-gray-700 rounded-xl px-5 py-3 text-center font-medium hover:border-pink-500 transition-all">{d}</div>)}
         </div>
       </div>
 
